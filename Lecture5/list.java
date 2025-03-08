@@ -39,6 +39,6 @@ public class list{
         }
 
         System.out.println(list);
-
+        
     }
 }
