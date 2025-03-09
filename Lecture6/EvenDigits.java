@@ -27,8 +27,9 @@ public class EvenDigits {
          */
         return numberOfDigits % 2 == 0;
     }
-
+    // Another way to find the number of digits in a number 
     static int digits2(int num) {
+        // if number is negative making it positive
         if (num < 0) {
             num = num * -1;
         }
@@ -37,7 +38,7 @@ public class EvenDigits {
 
     // count number of digits in a number
     static int digits(int num) {
-
+        // case : when the number is negative
         if (num < 0) {
             num = num * -1;
         }
