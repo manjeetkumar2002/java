@@ -8,6 +8,7 @@ public class Reverse {
     }
 
     static void reverse(int[] arr){
+        // This is two pointer method 
         int start = 0;
         int end = arr.length - 1;
         while (start<end) {
