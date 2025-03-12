@@ -21,7 +21,7 @@ public class OrderAgnosticBS{
             if(arr[mid]== target){
                 return mid;
             }
-
+            // steps when array is ascending order
             if(isAsc){
                 if(target<arr[mid]){
                     end = mid - 1;
@@ -30,6 +30,7 @@ public class OrderAgnosticBS{
                     start = mid + 1;
                 }
             }
+            // steps when array is descending order
             else{
                 if(target<arr[mid]){
                     start = mid + 1;
